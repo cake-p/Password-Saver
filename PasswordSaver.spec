@@ -31,4 +31,4 @@ exe = EXE(pyz,
           upx_exclude=[],
           runtime_tmpdir=None,
           console=True,
-          icon='favicon.ico')
+          icon='src/favicon.ico')
