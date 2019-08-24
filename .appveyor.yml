@@ -6,4 +6,9 @@ environment:
 
 install:
   - "%PYTHON%\\python.exe -m pip install -U pip setuptools pycryptodome pyinstaller"
+
+build_script:
   - "%PYTHON%\\Scripts\\pyinstaller.exe PasswordSaver.spec"
+
+artifacts:
+  - path: dist/PasswordSaver.exe
